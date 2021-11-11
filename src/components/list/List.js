@@ -6,11 +6,10 @@ import "./List.css";
 
 const List = () => {
   const { characters } = useSelector((state) => state.characterStore);
-  const { info } = useSelector((state) => state.characterStore);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(action.loadFirstCharacters());
+    dispatch(action.loadCharacters());
   }, [dispatch]);
 
   const templateListCharacter = characters.map((character) => {

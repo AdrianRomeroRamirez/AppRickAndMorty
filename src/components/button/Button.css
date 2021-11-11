@@ -1,14 +1,9 @@
-.character-list {
-  padding: 0 2rem;
-  list-style: none;
+.buttons-pagination {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 1rem;
 }
-/*# sourceMappingURL=List.css.map */
+/*# sourceMappingURL=Button.css.map */
